@@ -95,11 +95,18 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) div {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em;
+}
+
+section:nth-of-type(2) div div {
+    margin: 0.2em 0em;
 }
 
 ol,
 ul {
-    flex-grow: 1;
+    flex-grow: 2;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
