@@ -89,7 +89,7 @@ section>h2 {
 }
 
 section:nth-of-type(2) {
-    min-height: 120vh;
+    min-height: 140vh;
     justify-content: space-around;
 }
 
