@@ -88,8 +88,13 @@ section>h2 {
     border-bottom: 3px solid black;
 }
 
-section:nth-of-type(3) {
-    height: 20vh;
+section:nth-of-type(2) {
+    min-height: 120vh;
+    justify-content: space-around;
+}
+
+section:nth-of-type(2) div {
+    flex-grow: 1;
 }
 
 ol,
