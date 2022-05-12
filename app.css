@@ -64,7 +64,7 @@ a:visited {
 
 section {
     font-family: sans-serif;
-    min-height: 15em;
+    min-height: fit-content;
     max-height: 20em;
     height: 50vh;
     display: flex;
@@ -102,6 +102,11 @@ section:nth-of-type(2) div {
 
 section:nth-of-type(2) div div {
     margin: 0.2em 0em;
+}
+
+section:nth-of-type(3),
+section:nth-of-type(6) {
+    max-height: 20vh;
 }
 
 ol,
