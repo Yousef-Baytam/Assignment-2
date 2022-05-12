@@ -89,6 +89,16 @@ section>h2 {
     border-bottom: 3px solid black;
 }
 
+section:not(section:nth-of-type(2))>div {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+section:nth-of-type(2)>div>div {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
 section:nth-of-type(2) {
     min-height: 140vh;
     justify-content: space-around;
