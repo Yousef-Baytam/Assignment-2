@@ -76,6 +76,7 @@ section {
     border-radius: 5px;
     background-color: #22292b;
     color: white;
+    transition: all 200ms linear;
 }
 
 span.to-right {
@@ -110,6 +111,15 @@ section:nth-of-type(6) {
 }
 
 section:nth-of-type(4) div {
+    flex-grow: 1;
+    margin-top: 1em;
+}
+
+section:nth-of-type(5) {
+    max-height: 100vh;
+}
+
+section:nth-of-type(5) div {
     flex-grow: 1;
     margin-top: 1em;
 }
